@@ -1,7 +1,7 @@
 # Fast Forwarding Low-Rank Training
 *Accepted as a conference paper for EMNLP 2021*
 
-<img src="images/method" alt="Fast Forwarding algorithm" style="width:300px;"/>
+<img src="images/method.pdf" alt="Fast Forwarding algorithm" style="width:300px;"/>
 
 Code for reproducing results from the paper [Fast Forwarding Low-Rank Training](https://arxiv.org/abs/2409.04206).
 

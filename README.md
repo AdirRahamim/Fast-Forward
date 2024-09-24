@@ -1,5 +1,5 @@
 # Fast Forwarding Low-Rank Training
-*Accepted as a conference paper for EMNLP 2021*
+*Accepted as a conference paper for EMNLP 2024*
 <p align="center">
 <img src="images/method.png" alt="Fast Forwarding algorithm" style="width:300px;"/>
 </p>

@@ -3,6 +3,7 @@
 <p align="center">
 <img src="images/method.png" alt="Fast Forwarding algorithm" style="width:300px;"/>
 </p>
+
 Code for reproducing results from the paper [Fast Forwarding Low-Rank Training](https://arxiv.org/abs/2409.04206).
 
 ## Dependencies Setup

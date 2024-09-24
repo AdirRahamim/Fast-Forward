@@ -19,6 +19,7 @@ Run the following command to run a train with Fast Forward:
 ## Useful Arguments
 * **task**: The task to train the model on. Can be one of - chat, instruction of medical.
 * **model_name**: The name of the model (from Huggingface) to perform the trainin on. Current supported models are - Pythia 1.4b/2.8b/6.9b and Llama-3 8b models.
+* **fast-forward**: If True, training with fast forward.
 * **flops_profiler**: Whether to perform flops counting or not.
 * **use_dora**: If True, finetuning is performed using DoRA. Otherwise, LoRA is used.
 

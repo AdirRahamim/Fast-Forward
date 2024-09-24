@@ -1,8 +1,8 @@
 # Fast Forwarding Low-Rank Training
 *Accepted as a conference paper for EMNLP 2021*
-
-<img src="images/method.pdf" alt="Fast Forwarding algorithm" style="width:300px;"/>
-
+<p align="center">
+<img src="images/method.png" alt="Fast Forwarding algorithm" style="width:300px;"/>
+</p>
 Code for reproducing results from the paper [Fast Forwarding Low-Rank Training](https://arxiv.org/abs/2409.04206).
 
 ## Dependencies Setup
@@ -23,8 +23,8 @@ Run the following command to run a train with Fast Forward:
 
 ## Main Results
 
-<img src="images/lora_results.png" alt="lora flops" style="width:300px;"/>
-<img src="images/lora_results_time.png" alt="lora time" style="width:300px;"/>
+<img src="images/lora_results.png" alt="lora flops" style="width:500px;"/>
+<img src="images/lora_results_time.png" alt="lora time" style="width:500px;"/>
 
 *Fast Forward accelerates training across low rank methods, in all three datasets and all four models.*
 

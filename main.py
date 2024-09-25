@@ -213,12 +213,6 @@ def finetune(args):
                     param_update_flops += sum(torch.numel(difference_dict[param_name]) for param_name in keys)
                     lora_model.eval()
 
-                    ## TODO REMOVE AFTER TEST
-                    total_loss, ppl = evaluate()
-                    accelerator.print(
-                        f"Real eval step {fast_forward_step}, Batch {batch_idx}/{len(train_dataloader)}, Loss: {total_loss}, ppl: {ppl}")
-                    ## UNTIL HERE
-
                     fast_forward_step += 1
                     if args.flops_profiler:
                         prof.start_profile()
